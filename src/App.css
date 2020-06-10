@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+#topics {
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#topics td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#topics tr:hover {background-color: rgba(36,146,8,0.81)}
